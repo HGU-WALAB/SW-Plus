@@ -1,0 +1,158 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+html ,body{
+  margin:0px;
+  font-family: 'Lato', sans-serif !important;
+  overflow-y: scroll;
+	overflow-x: auto;
+}
+
+body {
+    min-width: 1200px;
+    width: 100%;
+}
+
+.bodyWrapper{
+  width:1200px;
+  margin: auto;
+}
+
+a:link { color: red; text-decoration: none;}
+a:visited { color: black; text-decoration: none;}
+
+
+.logo{
+  float: left;
+  margin-left: 30px;
+  margin-top: 10px;
+  width: 400px;
+}
+
+#logo{
+  width:330px;
+  margin-top: 0px;
+}
+
+.menu{
+  width:1200px;
+  margin:0;
+  position:absolute;
+  z-index:100;
+}
+.topbar{
+  margin-top:-10px;
+  width:100%;
+  background:white;
+  height:60px;
+}
+
+.bottombar{
+  width:100%;
+  overflow-y: hidden;
+  background:rgb(7,74,48,0.75);
+  height:140px;
+  /* height:105px; */
+}
+
+.topMenu ul{
+  display: block;
+	margin: 0;
+	padding: 0;
+  margin-right:0px;
+	list-style-type: none;
+  font-family:'Noto Sans KR', sans-serif !important;
+
+}
+
+.topMenu ul li{
+  float: right;
+	list-style: none;
+	margin: 0;
+	width: 105px;
+	text-align: center;
+	font-size: 16px;
+	line-height:60px;
+
+}
+
+.topMenu ul li a{
+  color:#074a30;
+  text-decoration:none;
+}
+
+.top_selected {
+  background-color: #074a30 !important;
+  opacity:0.85;
+
+}
+
+.top_selected a {
+  color:#ffffff !important;
+  text-decoration:none;
+}
+
+.top_unselected{
+  background-color: #ffffff !important;
+}
+
+.top_unselected a {
+  color:##074a30 !important;
+  text-decoration:none;
+}
+
+.bottomMenu{
+  margin-right:0px;
+
+}
+
+.bottomMenu ul{
+  float:right;
+  display: block;
+	margin: 0;
+	padding: 0;
+  width:105px;
+  height: 140px;
+  /* height:105px; */
+  text-align:center;
+	list-style-type: none;
+  padding:5px 0px 5px 0px;
+  font-family:'Noto Sans KR', sans-serif !important;
+
+
+}
+
+.bottomMenu ul li{
+  line-height:30.5px;
+
+}
+.bottomMenu ul li a{
+  font-size:13.3px;
+  color:white;
+  font-family:'Noto Sans KR', sans-serif !important;
+
+}
+
+.bot_selected{
+  background-color:#ffffff;
+  opacity:0.6;
+}
+
+.bot_selected a{
+  color:#000000 !important;
+}
+
+.child_selected a{
+  color:#855503 !important;
+}
+
+.child_unselected a{
+  color:#000000;
+}
+
+.child_unselected a:hover{
+  color:#855503 !important;
+}
+
+#sw_introduce.top_selected, #sw_introduce.top_unselected, #introduce_child.bot_selected{
+  width: 122px;
+}

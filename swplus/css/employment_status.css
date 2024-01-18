@@ -1,0 +1,68 @@
+employment_wrapper{
+  font-family: 'Lato', sans-serif !important;
+}
+
+ul.status {
+  list-style-type: none;
+  color: #484848;
+  font-weight: 500;
+}
+
+ul.status li::before {
+  content: "▪";
+  color: #2f6951;
+  font-weight: bold;
+  display: inline-block;
+  line-height: 1;
+  margin-left: -2.2em;
+  margin-right: 5px;
+}
+
+.employment{
+  margin-top: 30px;
+}
+
+.normal-text{
+  color: 	#707070 !important;
+  font-weight: normal !important;
+  line-height: 2;
+}
+
+#emp-table {
+  margin-top: 10px;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#emp-table td, #emp-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  color: #707070;
+
+}
+
+#emp-table #total-row{background-color: rgba(235,230,223,0.5);}
+
+#emp-table tr:hover {background-color: rgb(242,242,242);}
+
+#emp-table th {
+  font-weight: normal;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #2f6951;
+  color: white;
+}
+
+#emp-table #td-subheading{
+  color: rgb(134,115,70);
+}
+
+#emp-table #sum-row{
+  background-color: rgba(184,197,190, 0.3);
+}
+
+.mobile_wrapper{
+  margin: auto;
+}
